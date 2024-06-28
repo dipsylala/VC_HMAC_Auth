@@ -1,12 +1,13 @@
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
+<# Example output: 74BE83415200E845ABC1C729F2ADBB2E12D00AD0009A19F9FE658F873B6D14CA %>
 function Get-RandomHex {
     param(
         [int] $Bits = 256
     )
     $bytes = [byte[]]::new($Bits/8)
     [System.Security.Cryptography.RNGCryptoServiceProvider]::Create().GetBytes($bytes)
-    [System.BitConverter]::ToString($bytes) -replace '-'
+    -join ($bytes | ForEach-Object { "{0:X2}" -f $_ })
 }
 
 <# Returns a Byte array from a Hex String #>
