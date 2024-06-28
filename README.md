@@ -4,11 +4,11 @@ An example of calling Veracode from PowerShell 7, calculating and providing the 
 
 If you want a quick portfolio-wide test, consider changing:
 
-$urlPath = "/api/5.0/getbuildlist.do"
+`$urlPath = "/api/5.0/getbuildlist.do"`
 
 to:
 
-$urlPath = "/api/5.0/getapplist.do"
+`$urlPath = "/api/5.0/getapplist.do"`
 
 Tested under PowerShell 7.4.2:
 
