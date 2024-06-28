@@ -1,6 +1,6 @@
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-<# Example output: 74BE83415200E845ABC1C729F2ADBB2E12D00AD0009A19F9FE658F873B6D14CA %>
+<# Example output: 74BE83415200E845ABC1C729F2ADBB2E12D00AD0009A19F9FE658F873B6D14CA #>
 function Get-RandomHex {
     param(
         [int] $Bits = 256
