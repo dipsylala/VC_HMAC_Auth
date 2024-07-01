@@ -36,7 +36,7 @@ Response: <?xml version="1.0" encoding="UTF-8"?>
 ```
 
 ```
-❯ .\Veracode_HMAC256_Upload.ps1
+❯ .\VC_HMAC256_Upload.ps1
 
 OK
 <?xml version="1.0" encoding="UTF-8"?>
