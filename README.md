@@ -36,7 +36,7 @@ Response: <?xml version="1.0" encoding="UTF-8"?>
 ```
 
 ```
-❯ .\Veracode_HMAC256.ps1
+❯ .\Veracode_HMAC256_Upload.ps1
 
 OK
 <?xml version="1.0" encoding="UTF-8"?>
@@ -44,15 +44,5 @@ OK
 <filelist xmlns:xsi="http&#x3a;&#x2f;&#x2f;www.w3.org&#x2f;2001&#x2f;XMLSchema-instance" xmlns="https&#x3a;&#x2f;&#x2f;analysiscenter.veracode.com&#x2f;schema&#x2f;2.0&#x2f;filelist" xsi:schemaLocation="https&#x3a;&#x2f;&#x2f;analysiscenter.veracode.com&#x2f;schema&#x2f;2.0&#x2f;filelist https&#x3a;&#x2f;&#x2f;analysiscenter.veracode.com&#x2f;resource&#x2f;2.0&#x2f;filelist.xsd" filelist_version="1.1" account_id="44841" app_id="2186724" build_id="38075124"><file file_id="14493564819" file_name="test.zip" file_status="Uploaded"/>
    <file file_id="14493933963" file_name="test.zip" file_status="Uploaded"/>
    <file file_id="14493921228" file_name="test1.zip" file_status="Uploaded"/>
-   <file file_id="14494922680" file_name="test2.zip" file_status="Uploaded"/>
-   <file file_id="14494924983" file_name="test3.zip" file_status="Uploaded"/>
-   <file file_id="14494938541" file_name="test4.zip" file_status="Uploaded"/>
-   <file file_id="14494946739" file_name="test5.zip" file_status="Uploaded"/>
-   <file file_id="14494952740" file_name="test6.zip" file_status="Uploaded"/>
-   <file file_id="14494993038" file_name="test7.zip" file_status="Uploaded"/>
-   <file file_id="14494996837" file_name="test8.zip" file_status="Uploaded"/>
-   <file file_id="14494993069" file_name="test9.zip" file_status="Uploaded"/>
-   <file file_id="14494998453" file_name="test10.zip" file_status="Uploaded"/>
-   <file file_id="14493529026" file_name="test11.zip" file_status="Uploaded"/>
 </filelist>
 ```
